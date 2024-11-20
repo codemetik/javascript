@@ -186,6 +186,58 @@ Operator pada JavaScript terbagi menjadi enam, yaitu :
 </table>
 
    ### 7.3. Operator Pemanipulasian bi (bit)
+<table>
+  <tr>
+    <th>Operator</th>
+    <th>Keterangan</th>
+  </tr>
+  <tr>
+    <td> & </td>
+    <td> Bit AND </td>
+  </tr>
+  <tr>
+    <td> | </td>
+    <td> Bit OR </td>
+  </tr>
+  <tr>
+    <td> ^ </td>
+    <td> Bit XOR </td>
+  </tr>
+  <tr>
+    <td> ~ </td>
+    <td> Bit NOT </td>
+  </tr>
+  <tr>
+    <td> << </td>
+    <td> Geser ke kiri </td>
+  </tr>
+  <tr>
+    <td> >> </td>
+    <td> Geser ke kanan </td>
+  </tr>
+  <tr>
+    <td> >>> </td>
+    <td> Geser ke kanan dengan diisi nol</td>
+  </tr>
+</table>
+      _Contoh_ :
+      ```javascript
+      var A = 12; // A = 1100b
+      var B = 10; // B = 1010b
+      var C = A & B
+      ```
+      maka akan dihasilkan bilangan seperti berikut:
+      1100b
+      1010b AND
+      __________
+      1000b.
+      
+      _Contoh_ :
+      ```javascript
+      var A = 12;
+      var C = A << 2 ;
+      var D = A >> 1 ;
+      ```
    ### 7.4. Operator Pembanding
    ### 7.5. Operator Logika
    ### 7.6. Operator String
