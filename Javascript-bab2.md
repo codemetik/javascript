@@ -8,7 +8,7 @@ _Aturan penamaan variable_ :
     - Huruf KAPITAL dan kecil memiliki arti yang berbeda
     - Tidak boleh menggunakan kata-kata yang merupakan perintah dalam JavaScript.
 
-  _Deklarasi Variable_ :
+_Deklarasi Variable_ :
 ####
     Var nama_variable = nilai atau Nama_variable = nilai
 
