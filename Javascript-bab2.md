@@ -125,8 +125,8 @@ Operator pada JavaScript terbagi menjadi enam, yaitu :
     <td> Pengurangan dengan satu </td>
   </tr>
 </table>
-   
-   ### 2. Pemberian nilai (Assign)
+
+  ### 2. Pemberian nilai (Assign)
 <table>
   <tr>
     <th>Operator</th>
