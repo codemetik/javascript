@@ -119,7 +119,7 @@ document.write("di <b>github.com/codemetik</b>");
 ```
 4. Menggunakan `innerHTML`.
 - `innerHTML` adalah sebuah atribut di dalam (objek) elemen HTML yang berisi string HTML.
-```javascript
+```html
 <body>
 
     <h1>Belajar Javascript</h1>
