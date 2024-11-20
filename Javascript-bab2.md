@@ -77,7 +77,7 @@ Operator pada JavaScript terbagi menjadi enam, yaitu :
 5. Logika
 6. String
 
-   ### 1. Aritmatika
+### 7.1. Aritmatika
 <table>
   <tr>
     <th>Operator</th>
@@ -126,7 +126,7 @@ Operator pada JavaScript terbagi menjadi enam, yaitu :
   </tr>
 </table>
 
-    ### 2. Pemberian nilai (Assign)
+### 7.2. Pemberian nilai (Assign)
 <table>
   <tr>
     <th>Operator</th>
@@ -177,22 +177,14 @@ Operator pada JavaScript terbagi menjadi enam, yaitu :
     <td> X = X & Y </td>
   </tr>
   <tr>
-    <td> != </td>
+    <td> |= </td>
     <td> Bit OR </td>
-    <td></td>
-    <td></td>
+    <td> X |= Y </td>
+    <td> X = X | Y </td>
   </tr>
   
 </table>
-   | Operator | Keterangan | Contoh | Ekuivalen |
-   | = | Sama dengan | X = Y | |
-   | += | Ditambah dengan | X += Y | X = X + Y |
-   | -= | Dikurangi dengan | X -= Y | X = X - Y |
-   | *= | Dikali dengan | X *= Y | X = X * Y |
-   | /= | Dibagi dengan | X /= Y | X = / Y |
-   | %= | Modulu dengan | X %= Y | X = X % Y |
-   | &= | Bit AND dengan | X & Y | X = X & Y |
-   | != | Bit OR | 
+
    ### 3. Pemanipulasian bi (bit)
    ### 4. Pembanding
    ### 5. Logika
