@@ -60,3 +60,6 @@ Kode Javascript dituliskan pada file HTML. Terdapat dua cara yaitu :
    </html>
    ```
 3. Javascript ditulis pada file terpisah
+   ```javascript
+   <script src="namefile.js"></script>
+   ```
