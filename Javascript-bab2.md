@@ -1,14 +1,14 @@
 ## Variable Javascript
 ### 1. Variable dalam javascript
-  - Variable adalah sebuah penanda identitas untuk menympan suatu nilai atau informasi. Variable yang di deklarasikan dapat di isi dengan nilai apa saja. Jika variable tersebut di beri nilai, maka dalam javascript dianggap variable tersebut telah dideklarasikan. 
-  _Aturan penamaan variable_:
+  - Variable adalah sebuah penanda identitas untuk menympan suatu nilai atau informasi. Variable yang di deklarasikan dapat di isi dengan nilai apa saja. Jika variable tersebut di beri nilai, maka dalam javascript dianggap variable tersebut telah dideklarasikan. <br><br>
+_Aturan penamaan variable_ :
 ####
     - Harus diawali dengan karakter (huruf atau baris bawah)
     - Tidak boleh menggunakan spasi
     - Huruf KAPITAL dan kecil memiliki arti yang berbeda
     - Tidak boleh menggunakan kata-kata yang merupakan perintah dalam JavaScript.
 
-  _Deklarasi Variable_
+  _Deklarasi Variable_ :
 ####
     Var nama_variable = nilai atau Nama_variable = nilai
 
