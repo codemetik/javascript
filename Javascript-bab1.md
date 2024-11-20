@@ -63,3 +63,22 @@ Kode Javascript dituliskan pada file HTML. Terdapat dua cara yaitu :
    ```javascript
    <script src="namefile.js"></script>
    ```
+
+## Program Pertama Javascript
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Judul Halaman</title>
+</head>
+<body>
+<b>Bagian Pertama ini ditulis dengan tag <b></b> pada document HTML</b>
+<br>
+<script type="text/javascript">
+	document.write("\nBagian ini ditulis dengan document.write('..'); pada Javascript");
+</script>
+</body>
+</html>
+```
