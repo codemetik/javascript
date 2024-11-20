@@ -43,7 +43,7 @@ menterjemahkannya di sisi user/klien.
 ## Penulisan Javascript
 Kode Javascript dituliskan pada file HTML. Terdapat dua cara yaitu :
 1. Javascript ditulis pada file yang sama :
-   ```html
+   ```HTML
    <html>
    <head>
    <title>Judul Halaman</title>
