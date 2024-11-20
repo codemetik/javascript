@@ -227,10 +227,10 @@ var A = 12; // A = 1100b
 var B = 10; // B = 1010b
 var C = A & B
 ```
-maka akan dihasilkan bilangan seperti berikut:
-1100b
-1010b AND
-1000b.
+maka akan dihasilkan bilangan seperti berikut: <br>
+<br>1100b
+<br>1010b AND
+<br>1000b.
       
 _Contoh_ :
 ```javascript
