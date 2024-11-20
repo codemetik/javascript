@@ -44,13 +44,17 @@ menterjemahkannya di sisi user/klien.
 Kode Javascript dituliskan pada file HTML. Terdapat dua cara yaitu :
 1. Javascript ditulis pada file yang sama :
    ```HTML
+   <!DOCTYPE html>
    <html>
    <head>
-   <title>Judul Halaman</title>
+   	<meta charset="utf-8">
+   	<meta name="viewport" content="width=device-width, initial-scale=1">
+   	<title>Judul Halaman</title>
    </head>
    <body>
-   <script language="Javascript">
-   //kode javascript disini
+   	
+   <script type="text/javascript">
+   	//kode javascript disini
    </script>
    </body>
    </html>
