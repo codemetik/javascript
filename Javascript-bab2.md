@@ -77,9 +77,28 @@ Operator pada JavaScript terbagi menjadi enam, yaitu :
 5. Logika
 6. String
 
-   #### 1. Aritmatika
-   #### 2. Pemberian nilai (Assign)
-   #### 3. Pemanipulasian bi (bit)
-   #### 4. Pembanding
-   #### 5. Logika
-   #### 6. String
+   ### 1. Aritmatika
+   | Operator | Tunggal/Biner | Keterangan |
+   | + | Biner | Penjumlahan |
+   | - | Biner | Pengurangan |
+   | * | Biner | Perkalian |
+   | / | Biner | Pembagian |
+   | % | Biner | Modulus |
+   | _ | Tunggal | Negasi |
+   | ++ | Tunggal | Penambahan dengan satu |
+   | -- |  Tunggal | Pengurangan dengan satu |
+   
+   ### 2. Pemberian nilai (Assign)
+   | Operator | Keterangan | Contoh | Ekuivalen |
+   | = | Sama dengan | X = Y | |
+   | += | Ditambah dengan | X += Y | X = X + Y |
+   | -= | Dikurangi dengan | X -= Y | X = X - Y |
+   | *= | Dikali dengan | X *= Y | X = X * Y |
+   | /= | Dibagi dengan | 
+   | %= 
+   | &=
+   | !=
+   ### 3. Pemanipulasian bi (bit)
+   ### 4. Pembanding
+   ### 5. Logika
+   ### 6. String
