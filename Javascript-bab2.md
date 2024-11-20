@@ -238,7 +238,70 @@ var A = 12;
 var C = A << 2 ;
 var D = A >> 1 ;
 ```
+maka variable C akan bernilai 48(0011 0000b)
+variable D akan bernilai 6 (0110b)
 
    ### 7.4. Operator Pembanding
+   <table>
+     <tr>
+       <th>Operator</th>
+       <th>Keterangan</th>
+     </tr>
+     <tr>
+       <td> == </td>
+       <td> Sama dengan </td>
+     </tr>
+     <tr>
+       <td> != </td>
+       <td> Tidak Sama dengan </td>
+     </tr>
+     <tr>
+       <td> > </td>
+       <td> Lebih besar </td>
+     </tr>
+     <tr>
+       <td> < </td>
+       <td> Lebih kecil </td>
+     </tr>
+      <tr>
+       <td> >= </td>
+       <td> Lebih besar atau sama dengan </td>
+     </tr>
+      <tr>
+       <td> <= </td>
+       <td> Lebih kecil atau sama dengan </td>
+     </tr>
+   </table>
+         
    ### 7.5. Operator Logika
+  <table>
+    <tr>
+      <th>Operator</th>
+      <th>Keterangan</th>
+    </tr>
+    <tr>
+      <th> && </th>
+      <th> Operator Logika AND </th>
+    </tr>
+    <tr>
+      <th> || </th>
+      <th> Operator Logika OR </th>
+    </tr>
+    <tr>
+      <th> ! </th>
+      <th> Operator Logika NOT </th>
+    </tr>
+  </table>
+  
+  _Contoh_ :
+  ```javascript
+  var A = true;
+  var B = false;
+  var C = A && B; //menghasilkan false
+  var D = A || B; //false
+  var E = !A; //false 
+  ```
    ### 7.6. Operator String
+- Selain operator pembanding, operator string pada JavaScript juga mengenal satu
+operator lagi yang bernama PENGGABUNGAN. Operator ini digunakan untuk menggabungkan beberapa string menjadi sebuah string yang lebih panjang. Contoh :
+
