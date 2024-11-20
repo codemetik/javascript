@@ -303,5 +303,45 @@ variable D akan bernilai 6 (0110b)
   ```
    ### 7.6. Operator String
 - Selain operator pembanding, operator string pada JavaScript juga mengenal satu
-operator lagi yang bernama PENGGABUNGAN. Operator ini digunakan untuk menggabungkan beberapa string menjadi sebuah string yang lebih panjang. Contoh :
+operator lagi yang bernama PENGGABUNGAN. Operator ini digunakan untuk menggabungkan beberapa string menjadi sebuah string yang lebih panjang.
+_Contoh_ :
+`nama = "Java" + "Script";`
+akan menghasilkan "JavaScript" pada variable nama.
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Operasi Aritmatika</title>
+</head>
+<body>
+<p>
+	<script type="text/javascript">
+		document.writeln("<pre>");
+		document.writeln("<h1>Operasi Aritmatika</h1>");
+		var A = "100";
+		var B = "200";
+		var C = 300;
+		var D = 400;
+		var E = A + B;
+		document.writeln('"100" + "200" = ' + E);
+		E = B + C;
+		document.writeln('"200" + "300" = ' + E);
+		E = C + D;
+		document.writeln('"300" + "400" = ' + E);
+		document.writeln("</pre>");
+	</script>
+</p>
+</body>
+</html>
+```
+
+Hasil Tampilan Web Browser
+
+## Operasi Aritmatika
+
+"100" + "200" = 100200
+"200" + "300" = 200300
+"300" + "400" = 700
