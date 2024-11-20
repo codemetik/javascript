@@ -24,3 +24,35 @@ menjalankannya (pada kenyataannya kompilator Javascript sendiri sudah termasuk d
 dalam browser tersebut). Lain halnya dengan bahasa “Java” (dengan mana JavaScript
 selalu di banding bandingkan) yang memerlukan kompilator khusus untuk
 menterjemahkannya di sisi user/klien.
+
+## Keperluan Javascript
+1. Teks Editor
+   - Sublime Text
+   - Visual Code
+   - dll
+2. Web Browser
+   - Google Chrome
+   - Microsoft Edge
+   - Mozilla Firefox
+   - Safari
+   - Opera
+   - UC Browser
+   - Vivaldi
+   - Samsung Internet
+
+## Penulisan Javascript
+Kode Javascript dituliskan pada file HTML. Terdapat dua cara yaitu :
+1. Javascript ditulis pada file yang sama :
+   ```html
+   <html>
+   <head>
+   <title>Judul Halaman</title>
+   </head>
+   <body>
+   <script language="Javascript">
+   //kode javascript disini
+   </script>
+   </body>
+   </html>
+   ```
+3. Javascript ditulis pada file terpisah
