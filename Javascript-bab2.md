@@ -342,3 +342,48 @@ Hasil Tampilan Web Browser
 
 ![opt aritmatika](https://github.com/user-attachments/assets/ab41d25d-e44b-4159-9b96-2cef2ce42ca9)
 
+### 8. Memasukkan Data
+Untuk memasukan data dari keyboard dapat dilakukan dengan menggunakan perintah <b>input</b>
+_Contoh_:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Masukan Bilangan</title>
+</head>
+<body>
+<p>
+	<script type="text/javascript">
+	/*
+	function jumlah()
+	{
+	 var bil1 = parseFloat(document.fform.bilangan1.value);
+	 if (isNaN (bil1))
+	 bil1=0.0;
+	 var bil2 = parseFloat(document.fform.bilangan2.value);
+	 if (isNaN (bil2))
+	 bil2=0.0;
+	 var hasil = bil1 + bil2;
+	 alert ("Hasil Penjumlahan = " + hasil);
+	}
+	*/
+	</script>
+</p>
+<form name="fform">
+	<h1><br>Masukan Data Lewat Keyboard</h1>
+	<pre>
+	Bilangan Pertama : <input type="text" size="11" name="bilangan1">
+	Bilangan Kedua : <input type="text" size="11" name="bilangan2">
+	</pre>
+<input type="button" value="Jumlahkan" onclick="jumlah()">
+<input type="reset" value="Ulang">
+</form>
+</body>
+</html>
+```
+
+Hasil Tampilan pada Web Browser
+
+
