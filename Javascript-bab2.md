@@ -6,7 +6,19 @@
     - Tidak boleh menggunakan spasi
     - Huruf KAPITAL dan kecil memiliki arti yang berbeda
     - Tidak boleh menggunakan kata-kata yang merupakan perintah dalam JavaScript.
-    
+
+  _Deklarasi Variable_
+####
+    Var nama_variable = nilai atau Nama_variable = nilai
+
+_Contoh_ : 
+```javascript
+var nama;
+var nama = "Muhammad Irfa Nufaiyal Kharish, S.Kom"
+var X = 1992;
+var Y =;
+var Nama = "Zanky";
+```
 2. Tipe Data
 3. Tipe Numerik
 4. Tipe String
