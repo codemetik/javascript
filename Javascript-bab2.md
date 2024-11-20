@@ -36,18 +36,50 @@ JavaScript yaitu :
 - Pada dasarnya JavaScript hanya mengenal dua macam tipe numerik, yaitu bilangan
 bulat (integer) dan bilangan pecahan(real/float).
 Untuk bilangan bulat, kita dapat merepresentasikan dengan basis desimal, oktal atau
-heksadesimal.
-  _Contoh_:
+heksadesimal. _Contoh_:
   ```javascript
   var A = 100;
   var B = 0x2f;
   ```
-  Untuk pendeklarasian tipe bilangan real, dapat menggunakan tanda titik atau notasi ilmiah (notasi E).
+Untuk pendeklarasian tipe bilangan real, dapat menggunakan tanda titik atau notasi ilmiah (notasi E). _Contoh_:
   ```javascript
   var a = 3.14533567;
   var b = 1.23456E+3;
   ```
+
 ### 4. Tipe String
+- Untuk mendeklarasikan tipe string dapat dilakukan dengan cara menuliskan string
+diantara tanda petik tunggal (') atau tanda petik ganda ("). _Contoh_:
+```javascript
+var str ='Contoh deklarasi string';
+var str1 = "cara ini juga bisa untuk menulis string";
+```
+
 ### 5. Tipe Boolean
+- Tipe boolean hanya mempunyai nilai True atau False. Tipe ini biasanya digunakan
+untuk mengecek suatu kondisi atau keadaan. _Contoh_:
+```javascript
+var X = (Y > 90);
+```
+contoh diatas menunjukkan bahwa jika Y lebih besar dari 90 maka X akan bernilai
+True.
+
 ### 6. Tipe Null
+- Tipe Null digunakan untuk merepresentasikan variabel yang tidak diberi nilai awal
+(inisialisasi).
+
 ### 7. Operator
+Operator pada JavaScript terbagi menjadi enam, yaitu :
+1. Aritmatika
+2. Pemberinan nilai (Assign)
+3. Pemanipulasian bit (bit)
+4. Pembanding
+5. Logika
+6. String
+
+   #### 1. Aritmatika
+   #### 2. Pemberian nilai (Assign)
+   #### 3. Pemanipulasian bi (bit)
+   #### 4. Pembanding
+   #### 5. Logika
+   #### 6. String
