@@ -78,10 +78,10 @@ Operator pada JavaScript terbagi menjadi enam, yaitu :
 6. String
 
    ### 1. Aritmatika
-   | Operator | Tunggal/Biner | Keterangan               |
-   | +        | Biner         | Penjumlahan              |
-   | -        | Biner         | Pengurangan              |
-   | *        | Biner         | Perkalian                |
+| Operator | Tunggal/Biner | Keterangan               |
+| +        | Biner         | Penjumlahan              |
+| -        | Biner         | Pengurangan              |
+| *        | Biner         | Perkalian                |
    | /        | Biner         | Pembagian                |
    | %        | Biner         | Modulus                  |
    | _        | Tunggal       | Negasi                   |
