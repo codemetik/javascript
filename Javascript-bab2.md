@@ -78,17 +78,112 @@ Operator pada JavaScript terbagi menjadi enam, yaitu :
 6. String
 
    ### 1. Aritmatika
-| Operator | Tunggal/Biner | Keterangan               |
-| +        | Biner         | Penjumlahan              |
-| -        | Biner         | Pengurangan              |
-| *        | Biner         | Perkalian                |
-   | /        | Biner         | Pembagian                |
-   | %        | Biner         | Modulus                  |
-   | _        | Tunggal       | Negasi                   |
-   | ++       | Tunggal       | Penambahan dengan satu   |
-   | --       | Tunggal       | Pengurangan dengan satu  |
+<table>
+  <tr>
+    <th>Operator</th>
+    <th>Tunggal / Biner </th>
+    <th>Keterangan</th>
+  </tr>
+  <tr>
+    <td> + </td>
+    <td> Biner </td>
+    <td> Penjumlahan </td>
+  </tr>
+  <tr>
+    <td> - </td>
+    <td> Biner </td>
+    <td> Pengurangan </td>
+  </tr>
+  <tr>
+    <td> * </td>
+    <td> Biner </td>
+    <td> Perkalian </td>
+  </tr>
+  <tr>
+    <td> / </td>
+    <td> Biner </td>
+    <td> Pembagian </td>
+  </tr>
+  <tr>
+    <td> % </td>
+    <td> Biner </td>
+    <td> Modulus </td>
+  </tr>
+  <tr>
+    <td> _ </td>
+    <td> Tunggal </td>
+    <td> Negasi </td>
+  </tr>
+  <tr>
+    <td> ++ </td>
+    <td> Tunggal </td>
+    <td> Penambahan dengan satu </td>
+  </tr>
+  <tr>
+    <td> -- </td>
+    <td> Tunggal </td>
+    <td> Pengurangan dengan satu </td>
+  </tr>
+</table>
    
    ### 2. Pemberian nilai (Assign)
+<table>
+  <tr>
+    <th>Operator</th>
+    <th>Keterangan</th>
+    <th>Contoh</th>
+    <th>Ekuivalen</th>
+  </tr>
+  <tr>
+    <td> = </td>
+    <td> Sama dengan </td>
+    <td> X = Y </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td> += </td>
+    <td> Ditambah dengan </td>
+    <td> X += Y </td>
+    <td> X = X + Y</td>
+  </tr>
+  <tr>
+    <td> -= </td>
+    <td> Dikurangi dengan </td>
+    <td> X -= Y </td>
+    <td> X = X - Y</td>
+  </tr>
+  <tr>
+    <td> *= </td>
+    <td> Dikali dengan </td>
+    <td> X *= Y</td>
+    <td> X = X * Y</td>
+  </tr>
+  <tr>
+    <td> /= </td>
+    <td> Dibagi dengan </td>
+    <td> X /= Y</td>
+    <td> X = X / Y</td>
+  </tr>
+  <tr>
+    <td> %= </td>
+    <td> Modulus dengan </td>
+    <td> X %= Y </td>
+    <td> X = X % Y</td>
+  </tr>
+  <tr>
+    <td> &= </td>
+    <td> Bit AND dengan </td>
+    <td> X & Y </td>
+    <td> X = X & Y </td>
+  </tr>
+  <tr>
+    <td> != </td>
+    <td> Bit OR </td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+</table>
    | Operator | Keterangan | Contoh | Ekuivalen |
    | = | Sama dengan | X = Y | |
    | += | Ditambah dengan | X += Y | X = X + Y |
