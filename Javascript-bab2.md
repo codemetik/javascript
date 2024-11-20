@@ -340,8 +340,5 @@ akan menghasilkan "JavaScript" pada variable nama.
 
 Hasil Tampilan Web Browser
 
-## Operasi Aritmatika
+![opt aritmatika](https://github.com/user-attachments/assets/ab41d25d-e44b-4159-9b96-2cef2ce42ca9)
 
-"100" + "200" = 100200
-"200" + "300" = 200300
-"300" + "400" = 700
