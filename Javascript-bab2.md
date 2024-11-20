@@ -229,8 +229,7 @@ var C = A & B
 ```
 maka akan dihasilkan bilangan seperti berikut:
 1100b
-1010b AND
-__________
+<u> 1010b AND</u>
 1000b.
       
 _Contoh_ :
