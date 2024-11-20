@@ -74,10 +74,19 @@ Kode Javascript dituliskan pada file HTML. Terdapat dua cara yaitu :
 	<title>Judul Halaman</title>
 </head>
 <body>
-<b>Bagian Pertama ini ditulis dengan tag <b></b> pada document HTML</b>
-<br>
+<b>Bagian Pertama ini ditulis dengan HTML</b>
+
+<p id="p"></p>
+
 <script type="text/javascript">
-	document.write("\nBagian ini ditulis dengan document.write('..'); pada Javascript");
+	document.write("Bagian ini ditulis dengan Javascript");
+	document.write("<br>");
+	document.write("Bagian ini juga ditulis dengan Javascript");
+	
+	//menampilkan paragraph dengan memanggil atribut yang memiliki id dengan nama p
+	var p = document.getElementById("p");
+	p.innerHTML = "Bagian ini menampilkan paragraph dengan javascript";
+
 </script>
 </body>
 </html>
